@@ -294,7 +294,7 @@ a, a:hover {
 }
 .site-navbar .site-navigation .site-menu > li > a {
   padding: 20px 10px;
-  color: var(--black) !important;
+  color: var(--golden) !important;
   font-size: 25px;
   /* font-weight: bold; */
   text-decoration: none !important; 
@@ -608,7 +608,7 @@ a, a:hover {
 }
 .sticky-wrapper.is-sticky .site-navbar {
   background-color: var(--golden); 
-  height: 115px;
+  height: 100px;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
   display: inline-block;
@@ -619,24 +619,26 @@ a, a:hover {
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li:last-child > a {
   padding-right: 0; 
+  color: var(--black) !important;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li.has-children > a {
   padding-right: 20px; 
+  color: var(--black) !important;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a {
   padding: 10px 10px;
-  color: var(--black);
+  color: var(--black) !important;
   /* font-size: 15px;  */
   font-size: 20px;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: var(--black)!important; 
+  color: var(--white)!important; 
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a.active {
-  color: var(--black) !important; 
+  color: var(--white) !important; 
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li.active a {
-  color: var(--black); 
+  color: var(--white); 
 }
 
 @keyframes scroll {
