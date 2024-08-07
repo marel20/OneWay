@@ -196,3 +196,9 @@
     opacity: 1;
   }
 }
+
+/* effect typewritter */
+@keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: orange; }
+      }
